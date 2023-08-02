@@ -33,4 +33,8 @@ jobs:
 
       - name: Build
         working-directory: ./cise_ass1a_worksheet2/cise_ass1a_worksheet2-frontend
+<<<<<<< HEAD
         run: npm run build
+=======
+        run: npm run build
+>>>>>>> 755a95240924f2d133a98a10d9b54e0d7feb453d
