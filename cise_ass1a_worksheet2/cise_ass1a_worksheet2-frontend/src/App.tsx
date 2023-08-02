@@ -14,7 +14,7 @@ class App extends Component<{}, State> {
 
   makeIncrementer = (amount: number) => () =>
     this.setState((prevState: State) => ({
-      count: prevState.count + amount,
+      count: prevState.count + amount + 1,
     }));
 
   increment = this.makeIncrementer(1);
